@@ -51,8 +51,8 @@
     </header> 
 
     <main class="mainContacto">
-        <div class="ladoIzq w-100">
-            <div class="contactoTitulo w-100 ">
+        <div class="ladoIzq">
+            <div class="contactoTitulo">
                 <h1 class="h1form">EQOLE</h1>
             </div>
             <div class="container-fluid">
@@ -65,33 +65,33 @@
                 </nav>
             </div>
         </div>
-        <div class="ladoDer w-100">
+        <div class="ladoDer">
             <section class="">
-
-                <form class="form">
+                <form class="form" action="mailto:anabeltfarias@gmail.com" method="post" enctype="text/plain">
                     <div class="formGroup">
                         <label for="nombre">Nombre</label>
-                        <input type="text" name="nombre" placeholder="Escribe tu Nombre">
+                        <input type="text" name="nombre" placeholder="Escribe tu Nombre" required>
                     </div>
                     <div class="formGroup">
                         <label for="nombre">Apellido</label>
-                        <input type="text" name="apellido" placeholder="Escribe tu Apellido">
+                        <input type="text" name="apellido" placeholder="Escribe tu Apellido" required>
                     </div>
                     <div class="formGroup">
                         <label for="pais">Pais</label>
-                        <input type="email" name="pais" placeholder="Escribe tu Pais">
+                        <input type="email" name="pais" placeholder="Escribe tu Pais" required>
+
                     </div>
                     <div class="formGroup">
                         <label for="mail">Mail</label>
-                        <input type="email" name="email" placeholder="Escribe tu Mail">
+                        <input type="email" name="email" placeholder="Escribe tu Mail" required>
                     </div>
                     <div class="formGroup">
                         <label for="telefono">Telefono</label>
-                        <input type="text" name="telefono" placeholder="Telefono">
+                        <input type="text" name="telefono" placeholder="Telefono" required>
                     </div>
                     <div class="formGroup">
                     <label class="label" for="interes">CUÁL ES TU INTERES?</label>
-                        <select name="interes" id="interes">
+                        <select name="interes" id="interes" required>
                             <option value="inversiones">Inversiones</option>
                             <option value="sponsors">Sponsors</option>
                             <option value="esports-classroom">Esports Classroom</option>

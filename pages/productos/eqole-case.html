@@ -68,7 +68,7 @@
                 <div class="shopSelect flex-column">
                     <h1>EQOLE - CASE / FUNDA</h1>
                     <h3>$900</h2>
-                    <form class="cSelector d-flex justify-content-start flex-row">
+                    <form class="cSelector d-flex justify-content-start flex-column">
                         <div>
                             <label for="modelo">Elige tu modelo</label>
                             <select name="modelo" id="modelo" class="modelotelefono">
@@ -88,52 +88,50 @@
                                 <option value="iphone6splus">iPhone 6s plus</option>
                             </select>
                         </div>
-                    </form>
-                    <h2 class="color">Elige el color</h2>
-                    <section class="elegir__color">
-                        <div class="caja__color">
-                            <label class="cambio" for="color">Blanco/Celeste</label>
-                            <input class="cambio" type="radio" name="color" value="blanco">
-                        </div>
-                        <div class="caja__color">
-                            <label class="cambio" for="color">Negro/Blanco</label>
-                            <input class="cambio" type="radio" name="color" value="negro">
-                        </div>
-                    </section>
-                    <div class="cantidad">
-                        <label for="cantidad">Cantidad</label>
-                        <input type="number" name="cantidad" id="cantidad">
-                    </div>
-                    <div class="shopBoton">
-                        <input class="carrito " type="submit" value="Agregar al Carrito">
-                        <input class="comprar" type="submit" value="Comprar Ahora">
-                    </div>
-                    <div class="accordion" id="accordionExample">
-                        <div class="card">
-                            <div class="card-header" id="headingTwo">
-                                <h2 class="mb-0">
-                                    <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">DESCRIPCION
-                                </button>
-                                </h2>
+                        <h2 class="color">Elige el color</h2>
+                        <section class="elegir__color">
+                            <div class="caja__color">
+                                <label class="cambio" for="color">Blanco/Celeste</label>
+                                <input class="cambio" type="radio" name="color" value="blanco">
                             </div>
-                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                                <div class="card-body">
-                                    <ul class="con__estilo" >
-                                        <li>Producto Oficial Eqole.</li>
-                                        <li>Recuerda seleccion correctamente tu modelo</li>
-                                        <li>Modelo de silicona</li>
-                                        <li>Admite carga inalámbrica</li>
-                                        <li>Producción bajo demanda</li>
-                                    </ul>
+                            <div class="caja__color">
+                                <label class="cambio" for="color">Negro/Blanco</label>
+                                <input class="cambio" type="radio" name="color" value="negro">
+                            </div>
+                        </section>
+                        <div class="cantidad">
+                            <label for="cantidad">Cantidad</label>
+                            <input type="number" name="cantidad" id="cantidad">
+                        </div>
+                        <div class="shop__boton">
+                            <input class="carrito " type="submit" value="Agregar al Carrito">
+                            <input class="comprar" type="submit" value="Comprar Ahora">
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">DESCRIPCION
+                                    </button>
+                                    </h2>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <ul class="con__estilo" >
+                                            <li>Producto Oficial Eqole.</li>
+                                            <li>Recuerda seleccion correctamente tu modelo</li>
+                                            <li>Modelo de silicona</li>
+                                            <li>Admite carga inalámbrica</li>
+                                            <li>Producción bajo demanda</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="contenedor__volver">
-                        <button type="button" class="btn btn-info">
-                            <a href="../shop.html" target="_target">VOLVER</a>
-                        </button>
-                    </div>
+                        <div class="contenedor__volver">
+                            <a href="../shop.html" target="_target" class="btn btn-info">VOLVER</a>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
