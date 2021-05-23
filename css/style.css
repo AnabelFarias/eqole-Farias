@@ -559,14 +559,14 @@ article span {
   color: #fff;
   font-family: mont; }
 
-.cShop .card {
-  margin: 1rem;}
+.cShop .row .card {
+  margin: 3rem;}
 
-.cShop .card:hover {
+.cShop .row .card:hover {
   transform: scale(1.1,1.1);
 }
 
-.cShop .card a:hover {
+.cShop .row .card a:hover {
   text-decoration: none;
   color: rgb(216, 216, 216);
 }
