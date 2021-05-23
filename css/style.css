@@ -677,6 +677,24 @@ article span {
   transition: transform 0.05s, box-shadow 0.05s;
   margin-bottom: 5px; }
 
+.infoPagos {
+  padding-top: 1rem;
+  font-size: 18px;
+  color: #14a5bb;
+  text-transform: uppercase; }
+
+.span {
+  text-decoration: underline;
+  color: #14a5bb; }
+
+.lista2 .lista3 {
+  margin: 1rem 2.5rem; }
+
+.lista3 li {
+  list-style: circle;
+  font-size: 14px;
+  text-decoration: underline; }
+
 .formGroup input, .formGroup textarea, .formGroup option, .formGroup select, .formGroup button {
   box-sizing: border-box;
   padding: 0.5rem;
@@ -717,6 +735,9 @@ article span {
 
 .cSelector input[type=radio] {
   color: transparent; }
+
+.cantidad input {
+  color: #000; }
 
 .card {
   margin: 1rem 0; }
@@ -948,8 +969,12 @@ button {
     align-content: center; }
   .flexDerShop {
     display: flex;
-    justify-content: left;
-    align-content: flex-start; }
+    justify-content: center;
+    align-content: center; }
+  .shopSelect {
+    display: flex;
+    justify-content: center;
+    align-content: center; }
   .cSelector {
     display: flex;
     justify-content: left;
@@ -1113,16 +1138,21 @@ button {
     justify-content: space-between;
     align-content: center; }
   .flexShop .flexIzqShop {
-    width: 50%; }
-  .flexShop .flexIzqShop .shopImg {
-    width: 100%;
+    width: 50%;
     display: flex;
-    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center; }
+  .flexShop .flexIzqShop .shopImg {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center; }
   .flexShop .flexDerShop {
     width: 50%;
     padding-right: 1rem; }
+  .shopSelect {
+    width: 60%; }
   .ropaMain .flexShop--higher {
     padding-bottom: 17rem; }
   .mainContacto {
